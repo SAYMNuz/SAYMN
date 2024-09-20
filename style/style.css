@@ -1,0 +1,66 @@
+@import url(fonts.css);
+
+/* .section_top {
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+    height: 270px;
+    top: 900px;
+    left: 365px;
+    gap: 0px;
+    border-radius: 29px;
+    opacity: 0px;
+    background: #2A2A2A;
+    
+    p {
+        font-family: 'montserratR';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28.51px;
+        color: #E4E4E4;
+    }
+    img{
+        padding-top: 50px;
+    }
+}
+.img2{
+    margin-top: 20px;
+}
+
+.section_top {
+    height: 1847px;
+
+}
+.section_cards_top{
+    display: flex;
+    gap: 40px;
+}
+.p1{
+    padding-bottom: 50px;
+}
+.p2{
+    padding-bottom: 50px;
+}
+.p3{
+    padding-bottom: 50px;
+}
+.p4{
+    padding-bottom: 50px;
+}
+.section_cards_bottom{
+    display: flex;
+    gap: 30px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
