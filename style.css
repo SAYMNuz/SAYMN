@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+}
+
+.nav_list{
+    padding-top: 26px;
+    max-width: 1202px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background: #1C1C1C;
+}
+.nav_left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    h3{
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+.nav_right{
+    display: flex;
+    align-items: center;
+    gap: 145px;
+    a{
+        color: #E4E4E4;
+        text-decoration: none;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width:0px ;
+            background: #E2A300;
+            height: 2px;
+            bottom: -10px;
+            transition: 500ms;
+            left: 0;
+
+        }
+    }
+}
+
+
+.nav_right a:hover::after{
+    width: 100%;
+}
+
+.heder_content{
+    margin-top: 39px;
+    max-width: 1202px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.head_left{
+    h2{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 54.4px;
+        color: #E4E4E4;
+        text-transform: uppercase;
+        margin-bottom: 27px;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 81.6px;
+        max-width: 447px;
+        text-transform: uppercase;
+        color: #E4E4E4;
+        margin-bottom: 27px;
+    }
+    p{
+        font-weight: 300;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 21.38px;
+        max-width: 430px;
+        color: #E4E4E4;
+        opacity: 0.5;
+        margin-bottom: 27px;
+    }
+    button{
+        width: 200px;
+        height: 47px;
+        border-radius: 6px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 20.4px;
+        background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+        box-shadow: 0px 2px 13px 0px #E29E007A;
+        border: none;
+    }
+}
+
